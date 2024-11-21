@@ -32,7 +32,7 @@ const server = http.createServer((req, res) => {
 
 // Define a porta na qual o servidor vai rodar (3000)
 // Isso significa que o servidor estará disponível no endereço 'http://localhost:3000'
-const PORT = 3000;
+const PORT = 80;
 
 // Inicia o servidor na porta definida (3000) e exibe uma mensagem no console informando que o servidor está rodando
 server.listen(PORT, () => {
