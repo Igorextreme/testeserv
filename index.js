@@ -3,7 +3,7 @@ function fazerRequisicao() {
     // Usa o método 'fetch' para fazer uma requisição HTTP para o servidor
     // O endereço 'http://localhost:3000/api' é o endpoint que queremos acessar
     // Este endpoint deve responder com dados no formato JSON
-    fetch('http://localhost:3000/api')
+    fetch('https://testeserv.onrender.com/api')
         // Quando a resposta é recebida, ela é processada pela primeira função '.then'
         // 'response.json()' converte a resposta do servidor para um objeto JSON
         .then(response => response.json())
